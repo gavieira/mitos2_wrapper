@@ -5,7 +5,7 @@ Wrapper for MITOS2 annotation tool - generates a .gbk file from plain fasta sequ
 This script still needs MITOS to be installed in your machine. In order to install MITOS, first install the [Anaconda](https://www.anaconda.com/distribution/) distribution, then configure the [Bioconda](https://bioconda.github.io/user/install.html#set-up-channels) channel. Then install MITOS in a new environment (which we'll name 'mitos_local', but could have any other name):
 
 ```
-conda install mitos -c bioconda -m -n mitos_local
+conda install mitos=2.0.3 -c bioconda -m -n mitos_local
 ```
 
 Every time you want to run this wrapper, you will have to activate this new environment:
